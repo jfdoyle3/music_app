@@ -1,8 +1,3 @@
-# Starter Repository Template
+# Simple music streaming app
 
-This Repository has a customized gitignore file
-ignores:
-VS CODE, Visual Studio, Eclipse IDE, Intellij IDEA, Python,
-Gradle, Maven.
-
-- added Visual Studio in gitignore 1/31/2023
+Simple android app to play streaming music

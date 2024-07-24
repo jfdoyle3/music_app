@@ -9,8 +9,13 @@ Once app is running and understand how the app works.
 This app plays music from a playlist mp3. Want to make it stream music stations.
 
 
+dependencies:
+provider - adds the use of providers/sends data from one 'file' to another
+           floating variable for other modules/functions to use.
 
 
+
+--------------------------------------------------------
 
 default read me of a flutter project in case I need it.
 

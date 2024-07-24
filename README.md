@@ -2,7 +2,11 @@
 
 Simple android app to play streaming music using just_audio.
 
+Plan - build app on this:
+https://www.youtube.com/watch?v=Zr4j6W7nmpg&t=66s
 
+Once app is running and understand how the app works.
+This app plays music from a playlist mp3. Want to make it stream music stations.
 
 
 

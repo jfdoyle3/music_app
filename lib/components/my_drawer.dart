@@ -8,9 +8,8 @@ class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: Theme.of(context).colorScheme.surface,
-      child: Column(
-        children: [
+        backgroundColor: Theme.of(context).colorScheme.surface,
+        child: Column(children: [
           //logo
           DrawerHeader(
             child: Center(
@@ -38,7 +37,7 @@ class MyDrawer extends StatelessWidget {
             child: ListTile(
               title: const Text("S E T T I N G S"),
               leading: const Icon(Icons.settings),
-              onTap: (){
+              onTap: () {
                 // pop drawer
                 Navigator.pop(context);
 
@@ -46,14 +45,12 @@ class MyDrawer extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context)=> const SettingsPage(),
-                ),
+                    builder: (context) => const SettingsPage(),
+                  ),
                 );
               },
             ),
           ),
-        ]
-      )
-    );
+        ]));
   }
 }

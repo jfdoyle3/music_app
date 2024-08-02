@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:music_app/components/my_drawer.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -14,9 +15,8 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Theme.of(context).colorScheme.surface,
       appBar: AppBar(
         title: const Text("P L A Y L I S T"),
-        drawer: const Drawer(),
-
       ),
+      drawer: const MyDrawer(),
     );
   }
 }
